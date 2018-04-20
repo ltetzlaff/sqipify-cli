@@ -1,1 +1,3 @@
-src/
+src
+tests/temp*
+node_modules
