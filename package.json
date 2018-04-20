@@ -1,0 +1,40 @@
+{
+  "name": "sqipify-cli",
+  "version": "1.0.0",
+  "description": "CLI for sqipify",
+  "bin": {
+    "sqipify": "dist/cli.js",
+    "sqipify-cli": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc --watch || true",
+    "buildOnce": "tsc",
+    "lint": "tslint --format stylish --project .",
+    "prettier": "prettier --config node_modules/tslint-lt/.prettierrc.yml --write \"{,!node_modules/}**/*.{ts,tsx}\"",
+    "test": "npm run buildOnce && npm run lint && npm run prettier && node dist/tests/test.js",
+    "prepublish": "npm run buildOnce"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index",
+  "types": "dist/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ltetzlaff/sqipify.git"
+  },
+  "author": "ltetzlaff",
+  "license": "All rights reserved.",
+  "dependencies": {
+    "meow": "^4.0.0",
+    "sqipify": "^1.1.1",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/meow": "^4.0.1",
+    "@types/node": "^9.6.6",
+    "@types/update-notifier": "^2.2.0",
+    "tslint-lt": "^1.6.3",
+    "typescript": "^2.8.3"
+  }
+}
