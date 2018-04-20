@@ -27,14 +27,14 @@
   "license": "All rights reserved.",
   "dependencies": {
     "meow": "^4.0.0",
-    "sqipify": "^1.1.1",
+    "sqipify": "^1.1.2",
     "update-notifier": "^2.5.0"
   },
   "devDependencies": {
     "@types/meow": "^4.0.1",
     "@types/node": "^9.6.6",
     "@types/update-notifier": "^2.2.0",
-    "tslint-lt": "^1.6.3",
+    "tslint-lt": "^1.6.4",
     "typescript": "^2.8.3"
   }
 }
