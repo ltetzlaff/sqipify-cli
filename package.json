@@ -21,7 +21,7 @@
   "types": "dist/index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ltetzlaff/sqipify.git"
+    "url": "https://github.com/ltetzlaff/sqipify-cli.git"
   },
   "author": "ltetzlaff",
   "license": "All rights reserved.",
