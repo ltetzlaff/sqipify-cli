@@ -69,18 +69,13 @@ const {
   mode = "0",
   optimize = true,
 
-  outFile
+  outFile = "_sqip.svg"
 } = flags
-
-if (!outFile) {
-  console.error("No outFile path given.")
-  process.exit(1)
-}
 
 const n = Number(numberOfPrimitives)
 const b = Number(blur)
 const m = Number(mode)
-const jobs = input.map(i => new Job(i, n, b, m, optimize, outFile))
+const jobs = input.map(i => new Job(i, n, b, m, optimize, i + outFile))
 
 Promise.all(jobs.map(async j => j.run())).then(() =>
   console.log(`Completed ${jobs.length} Jobs`)
