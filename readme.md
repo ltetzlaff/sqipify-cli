@@ -4,6 +4,12 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+## sqipify
+
+(Github)[https://github.com/ltetzlaff/sqipify]
+
+(NPM)[https://www.npmjs.com/package/sqipify]
+
 ## Install
 
 ```bash
