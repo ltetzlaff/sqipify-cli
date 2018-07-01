@@ -6,9 +6,9 @@
 
 ## sqipify
 
-(Github)[https://github.com/ltetzlaff/sqipify]
+[Github](https://github.com/ltetzlaff/sqipify)
 
-(NPM)[https://www.npmjs.com/package/sqipify]
+[NPM](https://www.npmjs.com/package/sqipify)
 
 ## Install
 
